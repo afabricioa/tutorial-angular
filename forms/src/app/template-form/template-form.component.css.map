@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,SAAS,CAAA;EACP,KAAK,EAAE,GAAG;CACX",
+    "sources": [
+        "template-form.component.scss"
+    ],
+    "names": [],
+    "file": "template-form.component.css"
+}

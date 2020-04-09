@@ -1,0 +1,25 @@
+<div class="container-app">
+
+  <div class="row">
+    <div class="col-md-4">
+      <h4>Cursos Cadastrados</h4>
+    </div>
+  </div>
+  <hr>
+  <p>Página: {{ pagina }}</p>
+  <div class="row">
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let curso of cursos" [routerLink]="[curso.id]">
+              <p>{{ curso.nome }}</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-6">
+          <router-outlet></router-outlet>
+      </div>
+  </div>
+</div>
+
+

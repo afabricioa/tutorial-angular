@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "aluno-notfound.component.scss"
+    ],
+    "names": [],
+    "file": "aluno-notfound.component.css"
+}

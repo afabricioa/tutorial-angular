@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "aluno-detalhe.component.scss"
+    ],
+    "names": [],
+    "file": "aluno-detalhe.component.css"
+}

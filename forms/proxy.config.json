@@ -1,0 +1,15 @@
+{
+  "/ws/*" : {
+    "target": "http://localhost:4200",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/ws.correios.com.br/*" : {
+    "target": "http://localhost:4200",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+
+}

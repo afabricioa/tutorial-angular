@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "aluno-form.component.scss"
+    ],
+    "names": [],
+    "file": "aluno-form.component.css"
+}

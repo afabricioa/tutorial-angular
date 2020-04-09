@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "alunos.component.scss"
+    ],
+    "names": [],
+    "file": "alunos.component.css"
+}

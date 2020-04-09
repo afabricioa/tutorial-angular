@@ -1,0 +1,27 @@
+<div class="container-app">
+
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Lista de alunos cadastrados</h4>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-success" routerLink="novo">Novo Aluno</button>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item" *ngFor="let aluno of alunos" [routerLink]="[aluno.id]">
+                <p>{{ aluno.nome }}</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+
+

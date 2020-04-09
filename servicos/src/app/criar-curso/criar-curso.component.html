@@ -1,0 +1,12 @@
+<h5>Cursos compartilhados</h5>
+
+<input type="text" #cursoInput>
+<button (click)="onAddCurso(cursoInput.value)">Add</button>
+<ul>
+  <li *ngFor="let curso of cursos">
+      {{ curso }}
+  </li>
+</ul>
+
+<h4>Curso criado</h4>
+<app-receber-curso-criado></app-receber-curso-criado>

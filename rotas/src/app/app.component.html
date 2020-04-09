@@ -1,0 +1,29 @@
+<header *ngIf="mostrarMenu">
+  <div class="container">
+    <a href="" class="logo" routerLink="/">CursosAPP</a>
+    <nav>
+      <ul>
+        <li>
+          <a href="#" routerLinkActive="active" routerLink="/login">Login</a>
+        </li>
+        <li>
+          <a href="#" routerLinkActive="active" routerLink="/home">Home</a>
+        </li>
+        <li>
+          <a href="#" routerLinkActive="active" routerLink="/cursos" [queryParams]="{pagina:1}">Cursos</a>
+        </li>
+        <!-- <li>
+          <a href="#" routerLinkActive="active" [routerLink]="['curso', idCurso.value]">Curso com ID</a>
+        </li> -->
+        <li>
+          <a href="#" routerLinkActive="active" routerLink="/alunos">Alunos</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="container">
+  <!-- <p>Entre com o id: </p>
+  <input #idCurso> -->
+  <router-outlet></router-outlet>
+</div>
